@@ -18,8 +18,6 @@ import DynamicComponent from '@/components/dynamic/DynamicComponent.vue';
 import { useRoute } from 'vue-router';
 import type { ContractInfo, PaginabledContractStates } from '../types';
 
-import { JsonViewer } from 'vue3-json-viewer';
-// if you used v1.0.5 or latster ,you should add import "vue3-json-viewer/dist/index.css"
 
 const chainStore = useBlockchain();
 const baseStore = useBaseStore();
@@ -192,20 +190,7 @@ const tab = ref('detail');
           <div class="text-lg">{{ $t('cosmwasm.contract_states') }}</div>
         </div>
         <div class="overflow-auto">
-          <JsonViewer
-            :value="
-              state.models?.map((v) => ({
-                key: format.hexToString(v.key),
-                value: JSON.parse(format.base64ToString(v.value)),
-              })) || ''
-            "
-            :theme="baseStore.theme || 'dark'"
-            style="background: transparent"
-            copyable
-            boxed
-            sort
-            :expand-depth="5"
-          />
+          </pre>
           <PaginationBar :limit="pageRequest.limit" :total="state.pagination?.total" :callback="pageloadState" />
         </div>
       </div>
