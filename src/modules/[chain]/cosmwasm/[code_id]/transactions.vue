@@ -20,7 +20,6 @@ import type { ContractInfo, PaginabledContractStates } from '../types';
 
 import { JsonViewer } from 'vue3-json-viewer';
 // if you used v1.0.5 or latster ,you should add import "vue3-json-viewer/dist/index.css"
-import 'vue3-json-viewer/dist/index.css';
 
 const chainStore = useBlockchain();
 const baseStore = useBaseStore();

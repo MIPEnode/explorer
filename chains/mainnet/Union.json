@@ -1,0 +1,32 @@
+{
+    "chain_name": "Union-Mainnet",
+    "api": [
+        {
+            "address": "https://rest.union.build",
+            "provider": "Winnode"
+        },
+        {
+            "address": "https://rest.union.build",
+            "provider": "Winnode"
+        }
+    ],
+    "rpc": [
+        {
+            "address": "https://rpc.union.build",
+            "provider": "Winnode"
+        }
+    ],
+    "sdk_version": "0.45.7",
+    "coin_type": "118",
+    "min_tx_fee": "100000000",
+    "assets": [{
+        "base": "au",
+        "symbol": "U",
+        "exponent": "18",
+        "coingecko_id": "U",
+        "logo": "https://pbs.twimg.com/profile_images/1989373735241961472/Slo7q-Im_400x400.png"
+    }],
+    "addr_prefix": "union",
+    "theme_color": "#812cd6",
+    "logo": "https://pbs.twimg.com/profile_images/1989373735241961472/Slo7q-Im_400x400.png"
+}

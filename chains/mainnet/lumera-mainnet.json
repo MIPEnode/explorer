@@ -1,0 +1,36 @@
+{
+    "chain_name": "Lumera-Mainnet",
+    "api": [
+        {
+            "address": "https://lumera-api.polkachu.com",
+            "provider": "polkachu"
+        },
+        {
+            "address": "https://api.lumera.nodestake.org",
+            "provider": "nodestake"
+        }
+    ],
+    "rpc": [
+        {
+            "address": "https://lumera-rpc.polkachu.com",
+            "provider": "polkachu"
+        },
+        {
+            "address": "https://rpc.lumera.nodestake.org",
+            "provider": "nodestake"
+        }
+    ],
+    "sdk_version": "0.46.1",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "assets": [{
+        "base": "ulume",
+        "symbol": "LUME",
+        "exponent": "6",
+        "coingecko_id": "unknown",
+        "logo": ""
+    }],
+    "addr_prefix": "lumera",
+    "theme_color": "#812cd6",
+    "logo": "https://pbs.twimg.com/profile_images/2009045089620836352/acIisEO0_400x400.png"
+}

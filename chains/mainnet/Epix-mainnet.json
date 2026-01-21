@@ -1,0 +1,37 @@
+{
+    "chain_name": "Epix-Mainnet",
+    "api": [
+        {
+            "address": "https://api-epix.vinjan-inc.com",
+            "provider": "Vinjan"
+        },
+        {
+            "address": "https://api.epix.zone",
+            "provider": "Epix"
+        }
+        
+    ],
+    "rpc": [
+        {
+            "address": "https://rpc-epix.vinjan-inc.com",
+            "provider": "Onenoz"
+        },
+        {
+            "address": "https://rpc.epix.zone",
+            "provider": "Epix"
+        }
+    ],
+    "sdk_version": "0.45.7",
+    "coin_type": "118",
+    "min_tx_fee": "0.03",
+    "assets": [{
+        "base": "aepix",
+        "symbol": "EPIX",
+        "exponent": "6",
+        "coingecko_id": "unknown",
+        "logo": "https://pbs.twimg.com/profile_images/1826747785439240195/kxcZs3bD_400x400.jpg"
+    }],
+    "addr_prefix": "epix",
+    "theme_color": "#812cd6",
+    "logo": "https://pbs.twimg.com/profile_images/1826747785439240195/kxcZs3bD_400x400.jpg"
+}

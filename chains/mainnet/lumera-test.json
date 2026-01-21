@@ -1,0 +1,40 @@
+{
+    "chain_name": "Lumera-Testnet",
+    "api": [
+        {
+            "address": "https://api-t.lumera.nodestake.org",
+            "provider": "Nodestake"
+        },
+        {
+            "address": "https://lumera-testnet-api.polkachu.com",
+            "provider": "Polkachu"
+        },
+        {
+            "address": "https://lcd.testnet.lumera.io",
+            "provider": "Backup"
+        }
+    ],
+    "rpc": [
+        {
+            "address": "https://lumera-testnet-rpc.polkachu.com",
+            "provider": "Polkachu"
+        },
+        {
+            "address": "https://rpc-lumera.winnode.xyz",
+            "provider": "Backup"
+        }
+    ],
+    "sdk_version": "0.46.1",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "assets": [{
+        "base": "ulume",
+        "symbol": "LUME",
+        "exponent": "6",
+        "coingecko_id": "unknown",
+        "logo": ""
+    }],
+    "addr_prefix": "lumera",
+    "theme_color": "#812cd6",
+    "logo": "https://pbs.twimg.com/profile_images/2009045089620836352/acIisEO0_400x400.png"
+}

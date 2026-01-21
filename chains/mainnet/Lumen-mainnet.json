@@ -1,0 +1,37 @@
+{
+    "chain_name": "Lumen-Mainnet",
+    "api": [
+        {
+            "address": "https://api.lumen.chaintools.tech",
+            "provider": "ChainTools"
+        },
+        {
+            "address": "https://m-lumen.api.utsa.tech",
+            "provider": "UTSA"
+        }
+        
+    ],
+    "rpc": [
+        {
+            "address": "https://rpc.lumen.chaintools.tech",
+            "provider": "ChainTools"
+        },
+        {
+            "address": "https://lumen-rpc.utsa.tech",
+            "provider": "UTSA"
+        }
+    ],
+    "sdk_version": "0.45.7",
+    "coin_type": "118",
+    "min_tx_fee": "0.03",
+    "assets": [{
+        "base": "ulmn",
+        "symbol": "LMN",
+        "exponent": "6",
+        "coingecko_id": "unknown",
+        "logo": "https://lumen-network.org/logo.png"
+    }],
+    "addr_prefix": "lumen",
+    "theme_color": "#812cd6",
+    "logo": "https://lumen-network.org/logo.png"
+}
